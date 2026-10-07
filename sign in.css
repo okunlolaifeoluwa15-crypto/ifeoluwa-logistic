@@ -1,0 +1,137 @@
+.signin-container { 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: #f4f7f9; 
+    padding: 20px; 
+} 
+.signin-box { 
+    width: 100%; 
+    max-width: 420px; 
+    background: #fff; 
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1); 
+} 
+.signin-box h2 { 
+    text-align: center; 
+    margin-bottom: 10px; 
+    color: #222; 
+} 
+.signin-box > p { 
+    text-align: center; 
+    color: #777; 
+    margin-bottom: 30px; 
+} 
+.input-group { 
+    margin-bottom: 20px; 
+} 
+.input-group label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: 600; 
+} 
+.input-group input { 
+    width: 100%; 
+    padding: 13px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    outline: none; 
+    box-sizing: border-box; 
+} 
+.input-group input:focus { 
+    border-color: #ff7a00; 
+} 
+.signin-options { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 14px; 
+    margin-bottom: 25px; 
+} 
+.signin-options a, .signup-text a { 
+    color: #ff7a00; 
+    text-decoration: none; 
+} 
+.signin-box button {
+    width: 100%; 
+    padding: 14px; 
+    border: none; 
+    border-radius: 8px; 
+    background: #ff7a00; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+} 
+.signin-box button:hover { 
+    background: #e66d00; 
+} 
+.signup-text { 
+    margin-top: 25px; 
+    text-align: center; 
+    font-size: 14px; 
+}
+.init{
+   display: inline-block;
+  background: blue;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.init:hover{
+  background: #ff6b00;
+  
+}
+.sign{
+  display: inline-block;
+  background: blue;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 40px;
+  padding: 15px 20px;
+  transition: 0.3s;
+  
+}
+.sign a{
+  color: white;
+  text-decoration: none;
+}
+.sign:hover{
+  background: #ff6b00;
+}
+.parent img{
+    width: 70px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+    color: green;
+}
+.navbar li{
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 10px;
+    background: whitesmoke;
+    box-shadow: 10px 15px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.navbar ul{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
